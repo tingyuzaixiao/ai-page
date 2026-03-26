@@ -1,0 +1,37 @@
+import SaveAsLabelGroup from '../saveAsLabelGroup.vue';
+import { upload } from '/@/api/admin/file';
+
+export default {
+	labelGroup: {
+		labelGroupConfig: '标签组配置',
+		labelGroupName: '标签组名称',
+		inputLabelGroupNameTip: '请输入标签组名称',
+		description: '标签组描述',
+		descriptionInputTip: '请输入标签组描述',
+		labelGroupTip: '标签组名称不能为空',
+		updateLabelGroupSuccess: '更新标签组成功',
+		selectTagResoure: '选择标签来源',
+		useExistingTags: '使用已有标签',
+		importTags: '导入标签',
+		tagNum: '标签数量',
+		labelFile: '标签文件',
+		selectLabelFile: '选择标签文件',
+		selectLabelFileTips: '*请选择格式为json的标签文件',
+		labelTagConfig: '标签配置',
+		labelTagName: '标签名称',
+		inputTagNameTip: '请输入标签名称',
+		labelTagColor: '标签颜色',
+		tagNameTip: '标签名称不能为空',
+		tagColorTip: '标签颜色不能为空',
+		manageLabelGroup: '标签管理',
+		tagName: '标签名称',
+		color: '标签颜色',
+		addTagBtn: '添加标签',
+		addBtn: '添加标签组',
+		editBtn: '编辑',
+		configBtn: '标签管理',
+		labelNumber: '标签数量',
+		saveAs: '另存为标签组',
+		saveAsSuccess: '另存为成功',
+	},
+};

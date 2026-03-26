@@ -1,0 +1,27 @@
+export default {
+	algorithm: {
+		id: 'id',
+		server: '服务地址',
+		algorithmName: '算法服务名称',
+		description: '描述',
+		params: '服务参数',
+		algorithmStates: '算法服务状态',
+		heartbeatTime: '最后活跃',
+		createTime: '创建时间',
+		updateTime: '更新时间',
+		algorithmInputTip: '请输入算法服务名称',
+		algorithmServerInputTip: '请输入算法服务地址',
+		algorithmDescInputTip: '请输入描述',
+		algorithmParamsInputTip: '请输入服务参数',
+
+		algorithmAddBtn: '添加算法服务',
+		processId: '进程ID',
+		processState: '进程状态',
+		gpuAdd: '添加GPU资源',
+		algorithmEditBtn: '编辑',
+		gpuEdit: '编辑GPU资源',
+		addGpuSuccess: '添加GPU资源成功',
+		updateGpuSuccess: '更新GPU资源成功',
+		startExecutionTime: '开始执行时间',
+	},
+};

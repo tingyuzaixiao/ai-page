@@ -1,0 +1,76 @@
+// 定义内容
+export default {
+	logo: {
+		company: '空天院 ',
+		title: 'AI 算法训练平台',
+	},
+	slogan: {
+		title1: '工业增长新动力',
+		title2: '增长三要素',
+		title3_0: {
+			title: '体验创新',
+			description: '颠覆传统建模路径，定义未来新质检。',
+			icon: 'iconfont icon-dengpao',
+		},
+		title3_1: {
+			title: '敏捷迭代',
+			description: '基于云原生打造极致敏捷的AI训练新底座，为灵活性、高效性负责。',
+			icon: 'iconfont icon-shujuji2',
+		},
+		title3_2: {
+			title: '数据驱动',
+			description: '空天院快速增长实践经验，助力工业场景AI应用，辅助科学业务决策。',
+			icon: 'iconfont icon-shujukanban',
+		},
+	},
+	label: {
+		one1: '账号登录',
+		two2: '手机号登录',
+		three3: '社交登录',
+		register: '账号注册',
+		welcome: '欢迎来到 AI 算法训练平台',
+	},
+	link: {
+		one3: '第三方登录',
+		two4: '友情链接',
+		about: '关于我们',
+		contact: '联系我们',
+		friendshipLink: '友情链接',
+		subCompany: '大湾区空天院研究院',
+		copyright: '版权所有 ICP证',
+	},
+	password: {
+		accountPlaceholder1: '请输入邮箱/用户名',
+		accountPlaceholder2: '请输入密码',
+		accountPlaceholder3: '请输入验证码',
+		accountPlaceholder4: '请输入邮箱/用户名',
+		accountPlaceholder6: '请输入合法手机号',
+		accountPlaceholder5: '请设置登录密码',
+		phonePlaceholder4: '请输入手机号',
+		emailPlaceholder4: '请输入邮箱',
+		accountBtnText: '立即登录',
+		registerBtnText: '开始体验',
+		readAccept: '阅读并同意AI算法训练平台',
+		loginReadAccept: '登录视为您已阅读并同意AI算法训练平台',
+		and: '和',
+		termService: '服务条款',
+		privacyPolicy: '隐私政策',
+	},
+	mobile: {
+		placeholder1: '请输入手机号',
+		placeholder2: '请输入验证码',
+		codeText: '获取验证码',
+		btnText: '立即登录',
+	},
+	scan: {
+		text: '打开手机扫一扫，快速登录/注册',
+		wechatApp: '微信扫码体验移动端',
+	},
+	tenant_guide: {
+		title: '请选择租户，点击此处',
+		description: '请选择租户，只需要在第一次使用时进行选择。',
+	},
+	signInText: '欢迎回来！',
+	aircasText: '空天院',
+	browserMsgText: '* 温馨提示：建议使用谷歌、Microsoft Edge，版本 79.0.1072.62 及以上浏览器，360浏览器请使用极速模式',
+};

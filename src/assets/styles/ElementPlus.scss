@@ -1,0 +1,10 @@
+@use 'element-plus/theme-chalk/src/mixins/function.scss' as *;
+.el-button,
+.el-button.is-link {
+	&:focus {
+		color: getCssVar('button', 'text-color');
+		border-color: getCssVar('button', 'border-color');
+		background-color: getCssVar('button', 'bg-color');
+		outline: none;
+	}
+}
